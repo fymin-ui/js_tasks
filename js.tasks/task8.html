@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+    <body>
+
+        <script>
+
+           function toNumber(str) {
+           const num = Number(str);
+
+             if (isNaN(num)) {
+               console.error("invalid input");
+                   return null;
+            }
+
+              return num;
+            }
+
+             const userInput = prompt("enter a number:");
+             const currentInput = toNumber(userInput);
+
+             console.log("the number is:", currentInput);
+
+ 
+        </script>
+        
+    </body>
+    </html>

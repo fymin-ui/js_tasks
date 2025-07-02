@@ -1,0 +1,27 @@
+1. Create an HTML page that shows “Hello, world!” in an alert.
+
+2. Write a <script> that logs “Welcome to JavaScript!” to the browser console.
+
+3. Enable "use strict" and demonstrate that assigning to an undeclared variable throws an error.
+
+4. Declare a mutable (let) counter, an immutable (const) max value, and a var legacy flag. Log their initial values.
+
+5. Create variables of each primitive type and log both their value and typeof result.
+
+6. Use prompt to ask for the user’s name, then alert a personalized greeting.
+
+7. Prompt for birth year, convert to number, and alert the user’s age.
+
+8. Write a function toNumber(str) that converts a string to a number and handles invalid input.
+
+9. Write a function that returns true if a given number is between 1 and 100 (inclusive).
+
+10. Write a while loop that prints all even numbers from 2 to 20.
+
+11. Use a for loop to build a string of # characters whose length goes from 1 up to 5, and log each line (pyramid shape).
+
+12. In a for loop from 1 to 10, skip multiples of 3 (continue) and stop entirely if the number reaches 8 (break).
+
+13. Prompt for a day number (1–7) and use switch to alert the corresponding weekday name.
+
+14. Write both a function declaration and a function expression that compute the square of a number; call each.
