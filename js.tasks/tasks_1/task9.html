@@ -5,19 +5,15 @@
 
         <script>
 
-           function isBetween (n) {
+        function isBetween(n) {
 
-            n = Number(n);
+        n = Number(n);
+        
+        return n >= 1 && n <= 100;
 
-            if (n>=1 && n<=100){
+        }
 
-                return true;
-            }
-            else{
 
-                return false;
-            }
-           }
 
            let num=prompt("enter a num:");
            let newNum=isBetween(num);

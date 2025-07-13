@@ -1,0 +1,44 @@
+1. Create an user object with properties name, age, and a method greet() that alerts
+"Hello, I’m <name> and I’m <age> years old." using this.
+
+2. Make a shallow copy of your user object using Object.assign() and with spread syntax.
+Modify a nested property in the copy and observe whether the original changes.
+
+3. Write a function deepClone(obj) that returns a deep clone (e.g. via JSON.parse(JSON.stringify(obj))) and demonstrate it on a nested object.
+
+4. Define a constructor function Book(title, author) that sets those properties.
+Use new Book('1984', 'Orwell') to create an instance.
+Add a method getInfo() on its prototype that returns a formatted string.
+
+5. Given an array users where some may lack an address.city, safely log each user’s city using ?. and provide a default (e.g. "Unknown").
+
+6. Create a Symbol('id') and use it as a non-enumerable property key on an object.
+Show that for…in and Object.keys() don’t list it, but you can still access it.
+
+7. Prompt the user for a string like "12.345px", parse out the numeric part as a float and as an integer.
+Then format 1234.5678 to two decimal places.
+
+8. Given " Hello, JavaScript! ", trim it, uppercase it, replace "JavaScript" with "JS", and check if it includes "JS".
+
+9. Write a function tag(strings, ...values) that highlights each value by wrapping it in <b>…</b>. Demonstrate with a template.
+
+10. Create an array of your top 5 favorite movies.
+Access the 3rd item.
+Change the 1st item.
+Log the length before and after.
+Add two movies to the end and one at the beginning.
+Remove one from the end (pop) and one from the start (shift).
+Use slice to obtain a sub-array of the middle 3 movies.
+Use splice to remove the 2nd movie and insert a new title in its place.
+Use forEach to log each movie with its index.
+Use map to create a new array of strings like “1: MovieName”.
+
+11. Given an array of numbers, use filter to keep only even numbers.
+Use find to locate the first number > 10.
+
+12. Use reduce to compute the sum of an array of prices.
+
+13. Given an array of user objects with an age property, use sort to order them youngest→oldest.
+
+14. Given an array of test scores, use some to check if any score is below 50.
+Use every to check if all scores are ≥ 75.

@@ -1,0 +1,1 @@
+let worD="Hello, JavaScript!";
