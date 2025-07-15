@@ -5,4 +5,7 @@ const users = [
   { name: "Diana", address: {} },
 ];
 
-//to be completed 
+users.forEach(user => {
+  let city = user.address?.city ?? "Unknown";
+  alert(city);
+}); 
